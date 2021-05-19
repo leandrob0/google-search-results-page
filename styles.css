@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    display: block;
+}
+
+#search-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+}
+
+#logo-search {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+#google-logo {
+    width: 100px;
+    padding: 30px;
+    height: 35px;
+}
+
+#search-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid #dfe1e5;
+    padding: 5px;
+    width: auto;
+    box-shadow: 0 0 5px #dfe1e5;
+    max-width: 584px;
+    border-radius: 24px;
+    height: 34px;
+    align-items: center;
+}
+
+#search-bar:hover {
+    box-shadow: 0 0 15px #dfe1e5;
+}
+
+#search-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#mic-icon {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#search-input {
+    margin-left: 10px;
+    border: 0;
+    width: 25rem;
+    height: 24px;
+    font-size: 15px;
+}
+
+#search-input:focus {
+    outline-width: 0;
+}
+
+.search-hr {
+    height: 20px;
+}
+
+#user-menu {
+    display: flex;
+}
+
+#user-img {
+    border: 0;
+    border-radius: 50%;
+    height: 35px;
+    padding: 35px;
+}
+
+#navigation-links {
+    display: flex;
+    color: #70757a;
+    margin-left: 160px;
+}
+
+.link {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.separator-hr {
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid #ccc;
+    margin: 1em 0; 
+    padding: 0; 
+}
+
+#main-content {
+    width: 100%;
+    display: block;
+}
+
+#content-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-result {
+    width: 500px;
+    margin-left: 160px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    padding: 0;
+}
+
+.above-result {
+    margin: 0 0 0 4px;
+    font-size: 16px;
+}
+
+.result {
+    margin: 4px;
+    font-size: 22px;
+}
+
+a.result {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+a.result:hover {
+    color: #1a0dab;
+    text-decoration: underline;
+}
+
+.below-result {
+    margin: 4px;
+    color: #4d5156;
+    font-size: 15px;
+}
